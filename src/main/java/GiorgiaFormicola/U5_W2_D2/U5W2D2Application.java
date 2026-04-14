@@ -6,8 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class U5W2D2Application {
 
-	public static void main(String[] args) {
-		SpringApplication.run(U5W2D2Application.class, args);
-	}
+    public static void main(String[] args) {
+
+        SpringApplication.run(U5W2D2Application.class, args);
+        /*BlogPost newBlogPost = new BlogPost("tech", "Post1", "provapost", LocalTime.of(1, 20));
+        System.out.println(newBlogPost);*/
+    }
 
 }
