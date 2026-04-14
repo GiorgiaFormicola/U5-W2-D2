@@ -13,11 +13,4 @@ public class AuthorPayload {
     private String email;
     private LocalDate birthDate;
     private String avatarURL;
-
-    public AuthorPayload(String name, String surname, String email, LocalDate birthDate) {
-        this.name = name;
-        this.surname = surname;
-        this.email = email;
-        this.birthDate = birthDate;
-    }
 }
