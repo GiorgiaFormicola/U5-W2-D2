@@ -26,7 +26,7 @@ public class BlogPost {
         this.id = blogPostsCounter;
         this.category = category;
         this.title = title;
-        this.coverURL = "https://picsum.photos/200/300";
+        this.coverURL = "https://picsum.photos/800/300";
         this.content = content;
         this.readingTime = readingTime.getHour() * 60 + readingTime.getMinute();
     }
