@@ -41,5 +41,4 @@ public class AuthorsController {
     public void getAuthorByIdAndDelete(@PathVariable long authorId) {
         this.authorsService.findByIdAndDelete(authorId);
     }
-
 }
